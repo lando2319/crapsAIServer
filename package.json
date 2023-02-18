@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/lando2319/crapsAIServer/issues"
   },
-  "homepage": "https://github.com/lando2319/crapsAIServer#readme"
+  "homepage": "https://github.com/lando2319/crapsAIServer#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "openai": "^3.1.0"
+  }
 }

@@ -1,0 +1,6 @@
+{"prompt": "What is a Horn Bet?", "completion": "Horn is a one roll bet on the Aces, Ace Deuce, Eleven, and Twelve"}
+{"prompt": "What is the Aces", "completion": "Aces is a one roll bet on the dice total of two, each die showing a 1"}
+{"prompt": "What is the Ace Deuce", "completion": "Ace Deuce is a one roll bet on the dice total of three, one die showing a 1 and the other showing a 2"}
+{"prompt": "What is the Eleven", "completion": "Eleven, or Yo, is a one roll bet on the dice total of Eleven, one die showing a 5 and the other showing a 6"}
+{"prompt": "What is the Twelve", "completion": "Twelve, is a one roll bet on the dice total of Twelve, each dice showing a 6"}
+{"prompt": "How much does a Horn Bet Pay?", "completion": "Horn Bet covers 4 numbers, only one will hit, the Aces and Twelve pay 31 for 1, the Ace Deuce and Eleven pay 16 for 1. So if the 'highside' hits, it's 31 minus 4 to keep your bet up, 27 still up to win. Lowside would be a win of 16, or 12 still up to win"}
