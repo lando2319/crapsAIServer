@@ -12,7 +12,7 @@ const openai = new OpenAIApi(configuration);
 (async () => {
     try {
         const response = await openai.createFile(
-            fs.createReadStream(`${__dirname}/trainingData/hornBet.jsonl`),
+            fs.createReadStream(`${__dirname}/trainingData/secret/hornBet-organic.jsonl`),
             "fine-tune"
         );
 
