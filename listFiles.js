@@ -1,5 +1,5 @@
+
 require('dotenv').config({path:__dirname+'/.env'})
-var getCleanError = require("./utility/getCleanError.js");
 
 const { Configuration, OpenAIApi } = require("openai");
 const configuration = new Configuration({
@@ -10,16 +10,17 @@ const openai = new OpenAIApi(configuration);
 
 (async () => {
     try {
-        const response = await openai.listModels();
+        const response = await openai.listFiles();
 
         console.log(response.data.data);
         // var sorted = response.data.data.sort((a, b) => (a.created > b.created) ? 1 : -1)
         // console.log(sorted);
+
+        // THIS LON STRING
+        // LON
         process.exit(0);
     } catch (err) {
-        console.log(getCleanError.clean(err))
+        console.log("Error");
         process.exit(1);
     }
 })();
-
-// Best Curry curie:ft-personal-2023-02-12-14-25-56

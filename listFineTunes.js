@@ -12,6 +12,15 @@ const openai = new OpenAIApi(configuration);
         const response = await openai.listFineTunes();
 
         console.log(response.data.data);
+        // var sorted = response.data.data.sort((a, b) => (a.created > b.created) ? 1 : -1)
+        // console.log(sorted);
+
+        // THIS LON STRING
+        // LON
+
+        // LATEST
+        // file-ZLoZVDfmO9Uur7UUUWa0GAKi
+        // ft-qIZ4DVpoNOAi8ejemp6A7Vc0
         process.exit(0);
     } catch (err) {
         console.log("Error");
