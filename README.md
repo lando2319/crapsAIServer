@@ -1,4 +1,4 @@
-personal repo for using openAI
+CrapsAI - using OpenAI to create a Craps ChatBot
 
 openai.com
 
